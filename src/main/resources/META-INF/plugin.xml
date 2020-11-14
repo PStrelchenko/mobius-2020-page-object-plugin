@@ -1,11 +1,10 @@
 <idea-plugin>
     <id>com.mobius.idea_plugins.mobius-2020-page-object-plugin</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <name>MobiusPageObject</name>
+    <vendor email="p.strelchenko@hh.ru" url="https://hh.ru">hh.ru</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    Simple plugin for creating Kakao's Page Objects from XML files.
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
