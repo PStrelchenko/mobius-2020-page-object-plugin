@@ -1,6 +1,7 @@
 # mobius-2020-page-object-plugin
 
 Simple plugin for creating Kakao's Page Objects from XML files.
+Specially for [Mobius 2020 Moscow workshop](https://mobius-moscow.ru/2020/msk/talks/rzgmlnxak64xka0utfnpy/)
 
 ## What you can improve
 
