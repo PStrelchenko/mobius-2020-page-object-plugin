@@ -153,8 +153,8 @@ class CreatePageObjectDialog(
     }
 
     private fun getTargetPsiDirectory(): PsiDirectory? {
-        val selectedItem = destinationFolderCB.comboBox.selectedItem as DirectoryChooser.ItemWrapper
-        return selectedItem.directory
+        val selectedItem = destinationFolderCB.comboBox.selectedItem as? DirectoryChooser.ItemWrapper
+        return selectedItem?.directory
     }
 
 }

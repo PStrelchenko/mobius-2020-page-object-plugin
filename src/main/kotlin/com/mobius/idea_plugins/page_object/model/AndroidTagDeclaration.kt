@@ -4,31 +4,31 @@ import com.android.SdkConstants
 
 
 enum class AndroidTagDeclaration(
-    val widgets: List<String>
+    val widgetFQCNs: List<String>
 ) {
 
     CHECK_BOX(
-        widgets = listOf(
+        widgetFQCNs = listOf(
             SdkConstants.FQCN_CHECK_BOX
         )
     ),
     BUTTON(
-        widgets = listOf(
+        widgetFQCNs = listOf(
             SdkConstants.FQCN_BUTTON
         )
     ),
     TEXT_VIEW(
-        widgets = listOf(
+        widgetFQCNs = listOf(
             SdkConstants.FQCN_TEXT_VIEW
         )
     ),
     VIEW_GROUP(
-        widgets = listOf(
+        widgetFQCNs = listOf(
             SdkConstants.CLASS_VIEWGROUP
         )
     ),
     VIEW(
-        widgets = listOf(
+        widgetFQCNs = listOf(
             SdkConstants.CLASS_VIEW
         )
     )
