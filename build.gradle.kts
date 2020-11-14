@@ -21,6 +21,11 @@ intellij {
      */
 //    version = "2020.1.4"
     localPath = "/Applications/Android Studio 4.0.app/Contents"
+
+    /**
+     * Defines dependencies from three plugins: java + Kotlin + android
+     */
+    setPlugins("java", "Kotlin", "android")
 }
 tasks {
     compileKotlin {
