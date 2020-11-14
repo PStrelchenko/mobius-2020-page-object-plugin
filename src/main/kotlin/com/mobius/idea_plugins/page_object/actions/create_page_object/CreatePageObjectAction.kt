@@ -12,8 +12,13 @@ class CreatePageObjectAction : XmlLayoutCodeInsightAction() {
     override fun invoke(project: Project, editor: Editor, psiFile: PsiFile) {
         val dialog = CreatePageObjectDialog(psiFile as XmlFile).also { it.show() }
         if (dialog.isOK) {
-            // TODO
+            handleDialogResult(dialog.getResult())
         }
+    }
+
+
+    private fun handleDialogResult(result: CreatePageObjectDialogResult) {
+        println("result: $result")
     }
 
 }
