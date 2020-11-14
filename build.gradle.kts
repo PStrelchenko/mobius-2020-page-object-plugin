@@ -16,7 +16,11 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2020.1.4"
+    /**
+     * We targeting on the local version of Android Studio for getting proper API of plugins.
+     */
+//    version = "2020.1.4"
+    localPath = "/Applications/Android Studio 4.0.app/Contents"
 }
 tasks {
     compileKotlin {
