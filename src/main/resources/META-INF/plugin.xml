@@ -20,5 +20,11 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="com.mobius.idea_plugins.page_object.CreatePageObjectAction"
+                class="com.mobius.idea_plugins.page_object.actions.create_page_object.CreatePageObjectAction"
+                text="New Page Object"
+                description="Creates new Page Object from current XML layout file">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
